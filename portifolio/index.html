@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="JavaScrit/JavaScript.js">
+</head>
+<body>
+    <header>
+        <img src="imagens/gifanimado.gif" alt="gifanimado" id="gifanimado">
+        <nav>
+            <ul>
+                <li> <a href="#SobreMim">Sobre Mim</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#Contato">Contato</a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="SobreMim">
+            
+            <img src="imagens/logo.jpg" alt="Logo do site" id="logo">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste dignissimos aspernatur amet ut vero sit culpa cum, in dolore molestias quia nulla incidunt asperiores nam voluptatum, enim excepturi corrupti non.</p>
+        </section>
+        <section class="Projetos">
+            <h2>Projetos</h2>
+        <Grid class="Card">
+          <Grid class="Cartao" onclick="flipCard(this)">
+            <Grid class="Cartao-frente">
+              <h3>Projeto 1</h3>
+              <img src="imagens/logo2.jpg" alt="logo2" />
+            </Grid>
+            <Grid class="Cartao-verso">
+              <h3>Projeto 1</h3>
+              <img src="imagens/gifanimado3.gif" alt="gifanimado3">
+            </Grid>
+          </Grid>
+          <Grid class="Cartao" onclick="flipCard(this)">
+            <Grid class="Cartao-frente">
+              <h3>Projeto 2</h3>
+              <img src="imagens/logo2.jpg" alt="logo2" />
+            </Grid>
+            <Grid class="Cartao-verso">
+              <h3>Projeto 2</h3>
+              <img src="imagens/gifanimado3.gif" alt="gifanimado3">
+            </Grid>
+          </Grid>
+          <Grid class="Cartao" onclick="flipCard(this)">
+            <Grid class="Cartao-frente">
+              <h3>Projeto 3</h3>
+              <img src="imagens/logo2.jpg" alt="logo2" />
+            </Grid>
+            <Grid class="Cartao-verso">
+              <h3>Projeto 3</h3>
+              <img src="imagens/gifanimado3.gif" alt="gifanimado3">
+            </Grid>
+          </Grid>
+        </Grid>
+        </section>
+        <section class="Contato">
+                <form>
+                    <label for="Nome">Nome:</label>
+                <input type="text" id="Nome" required>
+                <label for="Email">E-mail:</label>
+                <input type="email" name="Email" id="Email" required>
+                <label for="Mensagem">Mensagem:</label>
+                <textarea name="Mensagem" id="Mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+                </form>
+        </section>
+    </main>
+    <footer><p>2025 - Todos os direitos reservados.</p>
+        <div class="Social">
+            <a href="https://facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              
+              <a href="https://github.com" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+        </div>
+    </footer>
+    <script src="JavaScrit/JavaScript.js"></script>
+</body>
+</html>
